@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Documentary</title>
+    <style>
+      header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        background-color: #0760d6;
+      }
+
+      main {
+        background-color: #ffe3ce;
+      }
+
+      header h1 {
+        font-size: 15px;
+        margin-left: 10px;
+        color: white;
+      }
+
+      a {
+        text-decoration: none;
+        color: white;
+      }
+
+      a:hover {
+        color: aqua;
+        transition: 0.3s ease-in-out;
+      }
+
+      nav {
+        margin-top: 10px;
+        margin-right: 10px;
+      }
+
+      footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        background-color: #0760d6;
+        color: white;
+        position: relative;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Toby</h1>
+      <nav>
+        <a href="#about-section">About</a>
+        <a href="#contact-section">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <section id="about-section">
+        <article>
+          <h1>About Myself</h1>
+          <h2>Introduction</h2>
+          <p>
+            My name is <b>Tobechukwu Victor Aki</b>. I'm a fullstack web
+            developer in the making, a game developer, and a lifelong learner.
+          </p>
+
+          <figure>
+            <img
+              src="AkI TOBECHUKWU VICTOR.jpg"
+              width="200"
+              height="300"
+              alt="My picture"
+            />
+            <figcaption>A Picture of Myself</figcaption>
+          </figure>
+
+          <h2>My Story</h2>
+          <p>
+            My journey in Web development begins way back in Junior Secondary
+            after I finished junior WAEC. I went to an academy where I learnt
+            how to make webpages using HTML. It was from there that I developed
+            an interest in web development, until I lost the book where I write
+            my code, and my interest for web development went with it. My
+            interest for it came back during my 2nd year in university after my
+            friend wanted me to join him on a project he was working on. I
+            realized later that there was more to web development than just
+            HTML. So I relearnt HTML and proceeded to learn CSS. But after my
+            day got so busy (school and my game dev) and because web dev was not
+            my priority at that time, I decided to leave it. During my fourth
+            year, when I was supposed to go for my IT. I had no idea what I
+            wanted to learn, seeing as my school won't regard game development
+            as something that can solve a problem. I decided to learn software
+            development as games are technically a form of software. I then
+            chose to go to Tenece Professional Services where I am currently
+            working as a backend development intern. It was from there that I
+            was introduced to Genesys Upskill and here I am now. My goal is to
+            perfect frontend development through learnable then I can become a
+            certified fullstack web developer.
+          </p>
+          <aside>
+            Fun Fact: Web development is somewhat like software development as
+            it also comprises as frontend and backend development
+          </aside>
+
+          <h3>Reason for joining web developmet... again</h3>
+          <p>
+            Now I know some of you all maybe asking; After the number of times I
+            dived into web development, why did I bother coming back? Well I
+            would say because my mindset has changed since then. I rejoined web
+            development because I want something to add to my portfolio. I also
+            never want anything I find myself doing or learning to ever go to
+            waste and I want to be the very best I can be.
+          </p>
+
+          <h2>FAQs about myself</h2>
+          <details>
+            <summary>What are my hobbies?</summary>
+            <p>
+              My hobbies are playing video games, watching anime, and extensive
+              research.
+            </p>
+          </details>
+
+          <details>
+            <summary>What's my favorite music?</summary>
+            <p>
+              There are a lot of music I love, but I would say my 'favorite' is
+              <mark>Firm Foundation by Maverick City Music</mark>. You can
+              listen to the music and watch the music video below:
+            </p>
+
+            <audio controls>
+              <source src="music.mp3" type="audio/mpeg" />
+            </audio>
+            <br />
+            <video controls width="400" height="400">
+              <source src="music-video.mp4" type="video/mp4" />
+            </video>
+          </details>
+
+          <details>
+            <summary>Where am I currently residing?</summary>
+            <p>
+              Ha! Good one. There's no way I'll tell you that. I'll tell you
+              however that I would love to live in Toronto, Canada. Here's the
+              location:
+            </p>
+
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30393.706147960307!2d-79.77293857391324!3d43.80886370712705!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d4cb90d7c63ba5%3A0x323555502ab4c477!2sToronto%2C%20ON%2C%20Canada!5e0!3m2!1sen!2sng!4v1759497410724!5m2!1sen!2sng"
+              width="600"
+              height="450"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </details>
+        </article>
+      </section>
+
+      <section id="contact-section">
+        <h1>Contact Me</h1>
+        <p>Let me know about your own journey. Just fill the form below:</p>
+
+        <form action="https://formsubmit.co/tobyvaki@gmail.com" method="post">
+          <div>
+            <input
+              type="text"
+              name="fullname"
+              placeholder="Full Name"
+              required
+            />
+          </div>
+          <br />
+
+          <div>
+            <input type="email" name="email" placeholder="Email" required />
+          </div>
+          <br />
+
+          <div>
+            <input
+              type="tel"
+              name="phonenumber"
+              placeholder="Phone Number"
+              required
+            />
+          </div>
+          <br />
+
+          <div>
+            <label for="gender">Gender</label><br />
+            <input type="radio" name="gender" id="male" value="male" required />
+            <label for="male">Male</label><br />
+            <input
+              type="radio"
+              name="gender"
+              id="female"
+              value="female"
+              required
+            />
+            <label for="female">Female</label>
+          </div>
+          <br />
+
+          <div>
+            <label for="country">Country</label><br />
+            <select name="country" required>
+              <option value="Nigeria">Nigeria</option>
+              <option value="US">United States</option>
+              <option value="Russia">Russia</option>
+              <option value="China">China</option>
+              <option value="UK">United Kingdom</option>
+            </select>
+          </div>
+          <br />
+
+          <div>
+            <textarea
+              name="story"
+              id="story"
+              cols="30"
+              rows="8"
+              placeholder="Write our own story here"
+            ></textarea>
+          </div>
+          <br />
+
+          <div>
+            <input type="submit" value="Submit" required />
+          </div>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <p>@Tobechukwu 2025 Genesys Upskill</p>
+    </footer>
+  </body>
+</html>
