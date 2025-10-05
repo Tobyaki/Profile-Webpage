@@ -1,0 +1,40 @@
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #0760d6;
+}
+
+main {
+  background-color: #ffe3ce;
+}
+
+header h1 {
+  font-size: 15px;
+  margin-left: 10px;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: aqua;
+  transition: 0.3s ease-in-out;
+}
+
+nav {
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #0760d6;
+  color: white;
+  position: relative;
+}
